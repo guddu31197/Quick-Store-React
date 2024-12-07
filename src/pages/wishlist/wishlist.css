@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wishlist-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem ;
+    gap: 2rem;
+}
+.wishlist-heading{
+    margin-top: 2rem;
+    text-align: center;
+}

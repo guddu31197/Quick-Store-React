@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--footerbackground-color);
+    flex-wrap: wrap;
+    
+}
+.footer ul li,.copyright {
+    list-style-type: none;
+    margin-top: 10px;
+    color: var(--primary-color);
+}
+.footer ul li a,.social-symbol a{
+    color: var(--primary-color);
+}
+.footer ul li a:hover,.social-symbol a:hover{
+    color: var(--default-color);
+}
+.footer-heading{
+    color: var(--default-color);
+    margin-top: 1rem;
+}
+ 
+ 

@@ -1,0 +1,49 @@
+.final-price-tag{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    max-width: 20rem;
+    margin-right: auto;
+    margin-left: 1rem;
+    height: fit-content;
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+    padding: 1rem;
+    line-height: 2rem;
+}
+.original-price,.total-price{
+    font-size: 1.5rem;
+}
+.price-heading{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.original-price,.total-price,.original-price,.discount-price,.delivery-price{
+    display: flex;
+    justify-content: space-between;
+}
+.place-order{
+    height: 2.3rem;
+    width: 15rem;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+}
+.wishlist-button button {
+    height: 2.5rem;
+    width: 10rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.move-wishlist{
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.remove-cart:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+.cart-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

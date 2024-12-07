@@ -1,0 +1,59 @@
+.login-section{
+    display: flex;
+    text-align: center;
+    margin-right: 1rem;
+    gap: 1.5rem;
+}
+.nav-heading{
+    display: flex;
+    height: 4.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border: 1px solid var(--card-border);
+    background-color: var( --signbackground-color);
+    z-index: 4;
+}
+.login-section a,.search-bar a{
+   color: var(--secondary-color);
+   text-decoration: none;
+   font-weight: bold;
+   margin-right: 0.5rem;
+}
+.search-bar{
+    text-align: center;
+    margin-left: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.login-section{
+    margin-left: auto;
+    display: flex;
+}
+
+.input-box{
+    height: 3rem;
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.search-button{
+    position: absolute;
+    margin: 0.3rem 16rem;
+}
+.login-section .fa{
+    font-size: 2rem;
+}
+.logout-button{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 5px 0 5px;
+    
+}
+.logout-button:hover{
+    background-color: var(--primary-color);
+}
+
